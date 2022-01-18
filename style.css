@@ -1,0 +1,34 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+.items {
+    text-decoration: none;
+    padding: 10px;
+    width: 45px;
+    height: 20px;
+    background-color: bisque;
+    border: black 1px solid;
+    color: whitesmoke;
+    text-shadow: 1px 0px;
+    transition: 500ms;
+}
+
+
+/* to si dal to itemu a a to nema zmysel pretoze a je sam o sebe sucastou.itemu */
+
+.items:hover {
+    border-radius: 30px;
+    -webkit-transform: rotate(-360deg);
+    padding: 30px;
+    background-color: blue;
+    border: black 1px solid;
+    color: whitesmoke;
+    width: 50px;
+    transition-timing-function: ease-in-out;
+}
